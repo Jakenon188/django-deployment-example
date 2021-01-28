@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
+
 from pathlib import Path
 import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -25,7 +26,7 @@ SECRET_KEY = '(2y*r_3&#gmqwf88qtyyf3z#7sv6@xo%czxw%5p6s8@%ue=pt-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['jakenon.pythonanywhere.com']
 
 
 # Application definition
@@ -121,8 +122,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
-ALLOWED_HOSTS = [
-    'localhost',
-    '127.0.0.1',
-    'jakenon.pythonanywhere.com'
-]
+
